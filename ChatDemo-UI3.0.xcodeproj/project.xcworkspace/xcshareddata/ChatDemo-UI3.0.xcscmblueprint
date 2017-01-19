@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "CA59206E14808EF3FA88B049798D0EE8747F2ADE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "CA59206E14808EF3FA88B049798D0EE8747F2ADE" : 9223372036854775807,
+    "82CBDC087A6F613CAD4621A5793B220E3F46D112" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D39D5F78-8382-404C-B86D-BD08971EC80C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "CA59206E14808EF3FA88B049798D0EE8747F2ADE" : "EaseMob-3.0\/",
+    "82CBDC087A6F613CAD4621A5793B220E3F46D112" : "yzh-redpacket\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ChatDemo-UI3.0",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ChatDemo-UI3.0\/ChatDemo-UI3.0.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:YunzhanghuOpen\/yzh-redpacket.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "82CBDC087A6F613CAD4621A5793B220E3F46D112"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:YunzhanghuOpen\/sdkdemoapp3.0_ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CA59206E14808EF3FA88B049798D0EE8747F2ADE"
+    }
+  ]
+}
