@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E60AC02BB64B68EE671E1B14B88A2F35EBB11B99",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E60AC02BB64B68EE671E1B14B88A2F35EBB11B99" : 9223372036854775807,
+    "CA59206E14808EF3FA88B049798D0EE8747F2ADE" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3EEF4FAE-3F0D-4B4E-9E9B-2541C065FE4B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E60AC02BB64B68EE671E1B14B88A2F35EBB11B99" : "jenkins-EaseChat3.0\/",
+    "CA59206E14808EF3FA88B049798D0EE8747F2ADE" : "EaseMob-3.0\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ChatDemo-UI3.0",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ChatDemo-UI3.0.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:YunzhanghuOpen\/sdkdemoapp3.0_ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CA59206E14808EF3FA88B049798D0EE8747F2ADE"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:YunzhanghuOpen\/jenkins-EaseChat3.0.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E60AC02BB64B68EE671E1B14B88A2F35EBB11B99"
+    }
+  ]
+}
