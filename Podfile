@@ -29,3 +29,7 @@ end
 target 'YouliaoYouliao' do
     shared_pods
 end
+
+target 'AliAuthPay' do
+    shared_pods
+end
