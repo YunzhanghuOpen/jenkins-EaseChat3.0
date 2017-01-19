@@ -59,7 +59,6 @@
     [[PLeakSniffer sharedInstance] alertLeaks];
     
 #endif
-
     
 #ifdef REDPACKET_AVALABLE
     /**
@@ -105,7 +104,7 @@
     [self easemobApplication:application
 didFinishLaunchingWithOptions:launchOptions
                       appkey:appkey
-                apnsCertName:apnsCertName
+                apnsCertName:nil
                  otherConfig:@{kSDKConfigEnableConsoleLogger:[NSNumber numberWithBool:YES]}];
 
     [self.window makeKeyAndVisible];

@@ -40,8 +40,6 @@
 		3CBF90C019302F5000AD68AE /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CBF90BF19302F5000AD68AE /* BaseViewController.m */; };
 		3CE6293319A1B13700829632 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CE6293219A1B13700829632 /* CoreText.framework */; };
 		47063CDC8CF74579F9F149FD /* libPods-ChatDemo-UI3.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C55E12384E2D67F9CE99F2F /* libPods-ChatDemo-UI3.0.a */; };
-		83B1CD57CC042EFE03D92BB0 /* libPods-H5ADAuth.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 07B9F7655E2457B6148DDD05 /* libPods-H5ADAuth.a */; };
-		871AEE8CE4004DBC81F5CE4D /* libPods-AliAuthPay.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC596DDEFE03B0064DE4CA53 /* libPods-AliAuthPay.a */; };
 		8D86A75C8D9F7298537E252E /* libPods-ChatDemo-UI3.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C55E12384E2D67F9CE99F2F /* libPods-ChatDemo-UI3.0.a */; };
 		90011F921AE4BF090088D549 /* EMAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90011F911AE4BF090088D549 /* EMAlertView.m */; };
 		9003D86E1939D8D000DC38A4 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9003D7861939D8D000DC38A4 /* ChatViewController.m */; };
@@ -530,229 +528,6 @@
 		929F14911DF5495C000C0EE8 /* RedPacketResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 929F147E1DF5495C000C0EE8 /* RedPacketResource.bundle */; };
 		929F14951DF54A8C000C0EE8 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 929F14941DF54A8C000C0EE8 /* CoreMotion.framework */; };
 		929F14971DF54D2D000C0EE8 /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 929F14961DF54D2D000C0EE8 /* AlipaySDK.framework */; };
-		92CF04011E2E15110085D631 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90911122192EEBB8008A48AA /* AppDelegate.m */; };
-		92CF04021E2E15110085D631 /* RobotListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D257873B1B43EC7000B0E69F /* RobotListViewController.m */; };
-		92CF04031E2E15110085D631 /* SRSlimeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90EF2CEB192F2B4E00BDC549 /* SRSlimeView.m */; };
-		92CF04041E2E15110085D631 /* AddFriendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9003D85E1939D8D000DC38A4 /* AddFriendCell.m */; };
-		92CF04051E2E15110085D631 /* SRRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90EF2CE9192F2B4E00BDC549 /* SRRefreshView.m */; };
-		92CF04061E2E15110085D631 /* GroupListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C914D7819514BBD0002DAD3 /* GroupListViewController.m */; };
-		92CF04071E2E15110085D631 /* TTGlobalUICommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 905326B419333E8E00F064D7 /* TTGlobalUICommon.m */; };
-		92CF04081E2E15110085D631 /* RedpacketTakenMessageTipCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 92DC0F701E0279A2005EEFED /* RedpacketTakenMessageTipCell.m */; };
-		92CF04091E2E15110085D631 /* EMAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90011F911AE4BF090088D549 /* EMAlertView.m */; };
-		92CF040A1E2E15110085D631 /* RobotChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B42A341B65E62C00968342 /* RobotChatViewController.m */; };
-		92CF040B1E2E15110085D631 /* ConversationListController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B61E321BC7BEA6007CB53E /* ConversationListController.m */; };
-		92CF040C1E2E15110085D631 /* SearchChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F7691E1CBF42DB009778FB /* SearchChatViewController.m */; };
-		92CF040D1E2E15110085D631 /* RedPacketLuckView.m in Sources */ = {isa = PBXBuildFile; fileRef = 929F14681DF5495C000C0EE8 /* RedPacketLuckView.m */; };
-		92CF040E1E2E15110085D631 /* EMRemarkImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6BBA0519419EBD00A64684 /* EMRemarkImageView.m */; };
-		92CF040F1E2E15110085D631 /* UserProfileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D29A6BAB1B72090F002324BB /* UserProfileManager.m */; };
-		92CF04101E2E15110085D631 /* RedpacketView.m in Sources */ = {isa = PBXBuildFile; fileRef = 929F146D1DF5495C000C0EE8 /* RedpacketView.m */; };
-		92CF04111E2E15110085D631 /* UserProfileEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D29A6BAE1B720960002324BB /* UserProfileEditViewController.m */; };
-		92CF04121E2E15110085D631 /* EMChooseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C5EB36219407CAF005C7704 /* EMChooseViewController.m */; };
-		92CF04131E2E15110085D631 /* ChatGroupDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C914D7519514BBD0002DAD3 /* ChatGroupDetailViewController.m */; };
-		92CF04141E2E15110085D631 /* ContactListSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D25978A01BCD072100148BF6 /* ContactListSelectViewController.m */; };
-		92CF04151E2E15110085D631 /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3527351931D1BE00385240 /* BaseTableViewCell.m */; };
-		92CF04161E2E15110085D631 /* CallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A910731C7FEEC20025AD0A /* CallViewController.m */; };
-		92CF04171E2E15110085D631 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9003D7861939D8D000DC38A4 /* ChatViewController.m */; };
-		92CF04181E2E15110085D631 /* EMRobotChatTextBubbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 906083D61B71F894008574B4 /* EMRobotChatTextBubbleView.m */; };
-		92CF04191E2E15110085D631 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CBF90BF19302F5000AD68AE /* BaseViewController.m */; };
-		92CF041A1E2E15110085D631 /* PublicGroupListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3EB2FB19545FFD00E1AE9E /* PublicGroupListViewController.m */; };
-		92CF041B1E2E15110085D631 /* EMSearchDisplayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9DDAB3193871D8007C765A /* EMSearchDisplayController.m */; };
-		92CF041C1E2E15110085D631 /* EMRotbotChatViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 906083D81B71F894008574B4 /* EMRotbotChatViewCell.m */; };
-		92CF041D1E2E15110085D631 /* AddFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9003D8601939D8D000DC38A4 /* AddFriendViewController.m */; };
-		92CF041E1E2E15110085D631 /* SearchMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F7691B1CBF3F26009778FB /* SearchMessageViewController.m */; };
-		92CF041F1E2E15110085D631 /* ContactSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C914D7A19514BBD0002DAD3 /* ContactSelectionViewController.m */; };
-		92CF04201E2E15110085D631 /* GroupSubjectChangingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 283403081A9EBB8200B7DE9B /* GroupSubjectChangingViewController.m */; };
-		92CF04211E2E15110085D631 /* UIImageView+HeadImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D29A6BA81B7208DF002324BB /* UIImageView+HeadImage.m */; };
-		92CF04221E2E15110085D631 /* ApplyFriendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9003D8621939D8D000DC38A4 /* ApplyFriendCell.m */; };
-		92CF04231E2E15110085D631 /* XHMessageTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6BBA081941A58C00A64684 /* XHMessageTextView.m */; };
-		92CF04241E2E15110085D631 /* ApplyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9003D8641939D8D000DC38A4 /* ApplyViewController.m */; };
-		92CF04251E2E15110085D631 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 90911033192EEA70008A48AA /* main.m */; };
-		92CF04261E2E15110085D631 /* ChatroomDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BFD6311B01D40500D0ADEC /* ChatroomDetailViewController.m */; };
-		92CF04271E2E15110085D631 /* PushNotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C117121197D243B00E2DBEC /* PushNotificationViewController.m */; };
-		92CF04281E2E15110085D631 /* UserProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2CB225B1B60CB08001BC741 /* UserProfileViewController.m */; };
-		92CF04291E2E15110085D631 /* InvitationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 90985E471A8A08D400976DD6 /* InvitationManager.m */; };
-		92CF042A1E2E15110085D631 /* ContactListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B61E351BC7C76B007CB53E /* ContactListViewController.m */; };
-		92CF042B1E2E15110085D631 /* AppDelegate+Redpacket.m in Sources */ = {isa = PBXBuildFile; fileRef = 926409821E07DD7700DE4DDF /* AppDelegate+Redpacket.m */; };
-		92CF042C1E2E15110085D631 /* AppDelegate+UMeng.m in Sources */ = {isa = PBXBuildFile; fileRef = 90517D691A5C3DB0008F1315 /* AppDelegate+UMeng.m */; };
-		92CF042D1E2E15110085D631 /* BlackListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2923B01988E13300DCCD40 /* BlackListViewController.m */; };
-		92CF042E1E2E15110085D631 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9091112E192EEC0F008A48AA /* SettingsViewController.m */; };
-		92CF042F1E2E15110085D631 /* AppDelegate+Parse.m in Sources */ = {isa = PBXBuildFile; fileRef = D29A6BB81B720A62002324BB /* AppDelegate+Parse.m */; };
-		92CF04301E2E15110085D631 /* PublicGroupDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3EB2FE195465D100E1AE9E /* PublicGroupDetailViewController.m */; };
-		92CF04311E2E15110085D631 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90911135192EEC91008A48AA /* LoginViewController.m */; };
-		92CF04321E2E15110085D631 /* DebugViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6FFA2319A2F5560003EB25 /* DebugViewController.m */; };
-		92CF04331E2E15110085D631 /* RobotManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B42A361B65E62C00968342 /* RobotManager.m */; };
-		92CF04341E2E15110085D631 /* GroupSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C35365B19A22164003EF79E /* GroupSettingViewController.m */; };
-		92CF04351E2E15110085D631 /* EMSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 905325CE1932ED8B00F064D7 /* EMSearchBar.m */; };
-		92CF04361E2E15110085D631 /* CreateGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C914D7C19514BBD0002DAD3 /* CreateGroupViewController.m */; };
-		92CF04371E2E15110085D631 /* RealtimeSearchUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 9003D8671939D8D000DC38A4 /* RealtimeSearchUtil.m */; };
-		92CF04381E2E15110085D631 /* GroupBansViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13D94A1A12095D00903622 /* GroupBansViewController.m */; };
-		92CF04391E2E15110085D631 /* AppDelegate+EaseMobDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 90CE5C111B43C8E500810187 /* AppDelegate+EaseMobDebug.m */; };
-		92CF043A1E2E15110085D631 /* RedPacketUserConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 929F14741DF5495C000C0EE8 /* RedPacketUserConfig.m */; };
-		92CF043B1E2E15110085D631 /* ChatroomListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BFD6331B01D40500D0ADEC /* ChatroomListViewController.m */; };
-		92CF043C1E2E15110085D631 /* AppDelegate+EaseMob.m in Sources */ = {isa = PBXBuildFile; fileRef = 90517D661A5C3C1F008F1315 /* AppDelegate+EaseMob.m */; };
-		92CF043D1E2E15110085D631 /* ContactView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13D94D1A120BA200903622 /* ContactView.m */; };
-		92CF043E1E2E15110085D631 /* ChatDemoHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FFDB911C1687A30031425A /* ChatDemoHelper.m */; };
-		92CF043F1E2E15110085D631 /* RedPacketChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 929F14711DF5495C000C0EE8 /* RedPacketChatViewController.m */; };
-		92CF04401E2E15110085D631 /* EditNicknameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2BF98B21AEDD780009E0D5C /* EditNicknameViewController.m */; };
-		92CF04411E2E15110085D631 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90911143192EEE6E008A48AA /* MainViewController.m */; };
-		92CF04421E2E15110085D631 /* EaseRedBagCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 929F14661DF5495C000C0EE8 /* EaseRedBagCell.m */; };
-		92CF04431E2E15110085D631 /* EMTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6BBA0B1941A7CF00A64684 /* EMTextView.m */; };
-		92CF04441E2E15110085D631 /* UIResponder+Router.m in Sources */ = {isa = PBXBuildFile; fileRef = 909110EA192EEAED008A48AA /* UIResponder+Router.m */; };
-		92CF04451E2E15110085D631 /* MyChatroomListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BFD6351B01D40500D0ADEC /* MyChatroomListViewController.m */; };
-		92CF04471E2E15110085D631 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 929F14941DF54A8C000C0EE8 /* CoreMotion.framework */; };
-		92CF04481E2E15110085D631 /* libMobClickLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C18CAED1A0B556D00FEB270 /* libMobClickLibrary.a */; };
-		92CF04491E2E15110085D631 /* libEaseUI-2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 92DC0F5D1E00E27D005EEFED /* libEaseUI-2.a */; };
-		92CF044A1E2E15110085D631 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C3527421931D33A00385240 /* Social.framework */; };
-		92CF044B1E2E15110085D631 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D29A6BB41B7209C1002324BB /* Accounts.framework */; };
-		92CF044C1E2E15110085D631 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C36CA691A1EDB6200CDDD48 /* CoreData.framework */; };
-		92CF044E1E2E15110085D631 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EB1975B11ADE0C77002E7E27 /* libc++.dylib */; };
-		92CF044F1E2E15110085D631 /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EBF9556B1ADD0F0C0087E035 /* libstdc++.6.0.9.dylib */; };
-		92CF04501E2E15110085D631 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CBB931B1A14B227007FED9E /* libsqlite3.dylib */; };
-		92CF04511E2E15110085D631 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CE6293219A1B13700829632 /* CoreText.framework */; };
-		92CF04521E2E15110085D631 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C1CEF7E196EA37600DBA56B /* ImageIO.framework */; };
-		92CF04531E2E15110085D631 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C06AB0219405D330076FF0B /* MapKit.framework */; };
-		92CF04541E2E15110085D631 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C06AAFE194050A00076FF0B /* CoreLocation.framework */; };
-		92CF04551E2E15110085D631 /* libresolv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 902DEC541931D934006CA75E /* libresolv.dylib */; };
-		92CF04561E2E15110085D631 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C3527441931D37900385240 /* SystemConfiguration.framework */; };
-		92CF04571E2E15110085D631 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90F1BED41930495800121AEC /* MobileCoreServices.framework */; };
-		92CF04581E2E15110085D631 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D29A6BB01B72098D002324BB /* Bolts.framework */; };
-		92CF04591E2E15110085D631 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 90F1BED01930493100121AEC /* libiconv.dylib */; };
-		92CF045A1E2E15110085D631 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90F1BECE1930492B00121AEC /* AddressBook.framework */; };
-		92CF045B1E2E15110085D631 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90F1BECC1930492300121AEC /* CFNetwork.framework */; };
-		92CF045C1E2E15110085D631 /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 929F14961DF54D2D000C0EE8 /* AlipaySDK.framework */; };
-		92CF045D1E2E15110085D631 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 90F1BECA1930491C00121AEC /* libz.dylib */; };
-		92CF045E1E2E15110085D631 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9091102B192EEA70008A48AA /* UIKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		92CF045F1E2E15110085D631 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D29A6BB11B72098D002324BB /* Parse.framework */; };
-		92CF04601E2E15110085D631 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90911027192EEA70008A48AA /* Foundation.framework */; };
-		92CF04611E2E15110085D631 /* libPods-ChatDemo-UI3.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C55E12384E2D67F9CE99F2F /* libPods-ChatDemo-UI3.0.a */; };
-		92CF04621E2E15110085D631 /* libPods-ChatDemo-UI3.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C55E12384E2D67F9CE99F2F /* libPods-ChatDemo-UI3.0.a */; };
-		92CF04641E2E15110085D631 /* group_participant_addHL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD2AAEB1A7CDAC000D16528 /* group_participant_addHL@2x.png */; };
-		92CF04651E2E15110085D631 /* icon_024_cover.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B3DAB91BF1D7B700913BD5 /* icon_024_cover.png */; };
-		92CF04661E2E15110085D631 /* chat_receiver_audio_playing003@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD2AACA1A7CDABF00D16528 /* chat_receiver_audio_playing003@2x.png */; };
-		92CF04671E2E15110085D631 /* icon_040_cover.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B3DAC31BF1D7B700913BD5 /* icon_040_cover.png */; };
-		92CF04681E2E15110085D631 /* chat_location_preview@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD2AA8E1A7CDABF00D16528 /* chat_location_preview@2x.png */; };
-		92CF04691E2E15110085D631 /* icon_018.gif in Resources */ = {isa = PBXBuildFile; fileRef = D2B3DAB01BF1D7B700913BD5 /* icon_018.gif */; };
-		92CF046A1E2E15110085D631 /* icon_030.gif in Resources */ = {isa = PBXBuildFile; fileRef = D2B3DAC01BF1D7B700913BD5 /* icon_030.gif */; };
-		92CF046B1E2E15110085D631 /* tabbarBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD2AAFD1A7CDAC000D16528 /* tabbarBackground.png */; };
-		92CF046C1E2E15110085D631 /* call_out_h.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD2AA731A7CDABF00D16528 /* call_out_h.png */; };
-		92CF046D1E2E15110085D631 /* chatListCellHead@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD2AA3E1A7CDABF00D16528 /* chatListCellHead@2x.png */; };
-		92CF046E1E2E15110085D631 /* 58.png in Resources */ = {isa = PBXBuildFile; fileRef = D2A9107E1C83E7890025AD0A /* 58.png */; };
-		92CF046F1E2E15110085D631 /* tabbar_setting.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD2AAF91A7CDAC000D16528 /* tabbar_setting.png */; };
-		92CF04701E2E15110085D631 /* chat_location_detail_disclosure@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD2AA8A1A7CDABF00D16528 /* chat_location_detail_disclosure@2x.png */; };
-		92CF04711E2E15110085D631 /* tabbar_chatsHL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD2AAF41A7CDAC000D16528 /* tabbar_chatsHL@2x.png */; };
-		92CF04721E2E15110085D631 /* call_silence_h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD2AA781A7CDABF00D16528 /* call_silence_h@2x.png */; };
-		92CF04731E2E15110085D631 /* chat_location_preview.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD2AA8D1A7CDABF00D16528 /* chat_location_preview.png */; };
-		92CF04741E2E15110085D631 /* group_participant_add@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD2AAEA1A7CDAC000D16528 /* group_participant_add@2x.png */; };
-		92CF04751E2E15110085D631 /* RedPacketResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 929F147E1DF5495C000C0EE8 /* RedPacketResource.bundle */; };
-		92CF04761E2E15110085D631 /* chat_receiver_audio_playing002@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD2AAC81A7CDABF00D16528 /* chat_receiver_audio_playing002@2x.png */; };
-		92CF04771E2E15110085D631 /* call_silence.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD2AA751A7CDABF00D16528 /* call_silence.png */; };
-		92CF04781E2E15110085D631 /* icon_020_cover.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B3DAB31BF1D7B700913BD5 /* icon_020_cover.png */; };
-		92CF04791E2E15110085D631 /* call_silence@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD2AA761A7CDABF00D16528 /* call_silence@2x.png */; };
-		92CF047A1E2E15110085D631 /* tabbar_chats.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD2AAF11A7CDAC000D16528 /* tabbar_chats.png */; };
-		92CF047B1E2E15110085D631 /* chat_location_annotation_someone.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD2AA871A7CDABF00D16528 /* chat_location_annotation_someone.png */; };
-		92CF047C1E2E15110085D631 /* icon_027_cover.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B3DABB1BF1D7B700913BD5 /* icon_027_cover.png */; };
-		92CF047D1E2E15110085D631 /* faceDelete.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD2AA901A7CDABF00D16528 /* faceDelete.png */; };
-		92CF047E1E2E15110085D631 /* icon_021_cover.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B3DAB51BF1D7B700913BD5 /* icon_021_cover.png */; };
-		92CF047F1E2E15110085D631 /* icon_012_cover.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B3DAAB1BF1D7B700913BD5 /* icon_012_cover.png */; };
-		92CF04801E2E15110085D631 /* EaseUIResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 92DC0F5F1E00E27D005EEFED /* EaseUIResource.bundle */; };
-		92CF04811E2E15110085D631 /* icon_029_cover.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B3DABD1BF1D7B700913BD5 /* icon_029_cover.png */; };
-		92CF04821E2E15110085D631 /* MJRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 92DC0EE01E00E27D005EEFED /* MJRefresh.bundle */; };
-		92CF04831E2E15110085D631 /* sr_refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 90EF2CE5192F2B4E00BDC549 /* sr_refresh.png */; };
-		92CF04841E2E15110085D631 /* messageSendFail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD2AA931A7CDABF00D16528 /* messageSendFail@2x.png */; };
-		92CF04851E2E15110085D631 /* tabbar_contacts@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD2AAF61A7CDAC000D16528 /* tabbar_contacts@2x.png */; };
-		92CF04861E2E15110085D631 /* password.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD2AADF1A7CDAC000D16528 /* password.png */; };
-		92CF04871E2E15110085D631 /* icon_010.gif in Resources */ = {isa = PBXBuildFile; fileRef = D2B3DAAA1BF1D7B700913BD5 /* icon_010.gif */; };
-		92CF04881E2E15110085D631 /* icon_018_cover.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B3DAAF1BF1D7B700913BD5 /* icon_018_cover.png */; };
-		92CF04891E2E15110085D631 /* chat_location_detail_disclosureHL.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD2AA8B1A7CDABF00D16528 /* chat_location_detail_disclosureHL.png */; };
-		92CF048A1E2E15110085D631 /* tabbar_settingHL.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD2AAFB1A7CDAC000D16528 /* tabbar_settingHL.png */; };
-		92CF048B1E2E15110085D631 /* MWPhotoBrowser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 92DC0F041E00E27D005EEFED /* MWPhotoBrowser.bundle */; };
-		92CF048C1E2E15110085D631 /* account.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD2AADD1A7CDABF00D16528 /* account.png */; };
-		92CF048D1E2E15110085D631 /* icon_012.gif in Resources */ = {isa = PBXBuildFile; fileRef = D2B3DAAC1BF1D7B700913BD5 /* icon_012.gif */; };
-		92CF048E1E2E15110085D631 /* group_header@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D2BF974D1AEB566B009E0D5C /* group_header@2x.png */; };
-		92CF048F1E2E15110085D631 /* chat_receiver_audio_playing_full@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD2AACC1A7CDABF00D16528 /* chat_receiver_audio_playing_full@2x.png */; };
-		92CF04901E2E15110085D631 /* icon_035.gif in Resources */ = {isa = PBXBuildFile; fileRef = D2B3DAC21BF1D7B700913BD5 /* icon_035.gif */; };
-		92CF04911E2E15110085D631 /* tabbarBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD2AAFE1A7CDAC000D16528 /* tabbarBackground@2x.png */; };
-		92CF04921E2E15110085D631 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 909E89C41A6E7A270064B20F /* LoginViewController.xib */; };
-		92CF04931E2E15110085D631 /* password@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD2AAE01A7CDAC000D16528 /* password@2x.png */; };
-		92CF04941E2E15110085D631 /* callBg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD2AA791A7CDABF00D16528 /* callBg@2x.png */; };
-		92CF04951E2E15110085D631 /* group_joinpublicgroup@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D2BF974E1AEB566B009E0D5C /* group_joinpublicgroup@2x.png */; };
-		92CF04961E2E15110085D631 /* nav_createGroup@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD2AAEE1A7CDAC000D16528 /* nav_createGroup@2x.png */; };
-		92CF04971E2E15110085D631 /* icon_021.gif in Resources */ = {isa = PBXBuildFile; fileRef = D2B3DAB61BF1D7B700913BD5 /* icon_021.gif */; };
-		92CF04981E2E15110085D631 /* icon_022.gif in Resources */ = {isa = PBXBuildFile; fileRef = D2B3DAB81BF1D7B700913BD5 /* icon_022.gif */; };
-		92CF04991E2E15110085D631 /* chat_sender_audio_playing_000@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD2AAD11A7CDABF00D16528 /* chat_sender_audio_playing_000@2x.png */; };
-		92CF049A1E2E15110085D631 /* account@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD2AADE1A7CDAC000D16528 /* account@2x.png */; };
-		92CF049B1E2E15110085D631 /* RedpacketCellResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 929F146E1DF5495C000C0EE8 /* RedpacketCellResource.bundle */; };
-		92CF049C1E2E15110085D631 /* call_silence_h.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD2AA771A7CDABF00D16528 /* call_silence_h.png */; };
-		92CF049D1E2E15110085D631 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C9B158D1A6D157E00D09FD6 /* InfoPlist.strings */; };
-		92CF049E1E2E15110085D631 /* 114.png in Resources */ = {isa = PBXBuildFile; fileRef = D2A9107A1C83E7890025AD0A /* 114.png */; };
-		92CF049F1E2E15110085D631 /* chat_location_detail_disclosure.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD2AA891A7CDABF00D16528 /* chat_location_detail_disclosure.png */; };
-		92CF04A01E2E15110085D631 /* icon_007.gif in Resources */ = {isa = PBXBuildFile; fileRef = D2B3DAA81BF1D7B700913BD5 /* icon_007.gif */; };
-		92CF04A11E2E15110085D631 /* chat_sender_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD2AADB1A7CDABF00D16528 /* chat_sender_bg@2x.png */; };
-		92CF04A21E2E15110085D631 /* chat_location_detail_disclosureHL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD2AA8C1A7CDABF00D16528 /* chat_location_detail_disclosureHL@2x.png */; };
-		92CF04A31E2E15110085D631 /* group_creategroup@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D2BF974C1AEB566B009E0D5C /* group_creategroup@2x.png */; };
-		92CF04A41E2E15110085D631 /* 29.png in Resources */ = {isa = PBXBuildFile; fileRef = D2A9107C1C83E7890025AD0A /* 29.png */; };
-		92CF04A51E2E15110085D631 /* tabbarSelectBg.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD2AAFF1A7CDAC000D16528 /* tabbarSelectBg.png */; };
-		92CF04A61E2E15110085D631 /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD2AAE31A7CDAC000D16528 /* back@2x.png */; };
-		92CF04A71E2E15110085D631 /* icon_019_cover.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B3DAB11BF1D7B700913BD5 /* icon_019_cover.png */; };
-		92CF04A81E2E15110085D631 /* add@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD2AAE21A7CDAC000D16528 /* add@2x.png */; };
-		92CF04A91E2E15110085D631 /* 80.png in Resources */ = {isa = PBXBuildFile; fileRef = D2A9107F1C83E7890025AD0A /* 80.png */; };
-		92CF04AA1E2E15110085D631 /* tabbar_contactsHL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD2AAF81A7CDAC000D16528 /* tabbar_contactsHL@2x.png */; };
-		92CF04AB1E2E15110085D631 /* (null) in Resources */ = {isa = PBXBuildFile; };
-		92CF04AC1E2E15110085D631 /* chat_receiver_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD2AACE1A7CDABF00D16528 /* chat_receiver_bg@2x.png */; };
-		92CF04AD1E2E15110085D631 /* groupPrivateHeader@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD2AAEC1A7CDAC000D16528 /* groupPrivateHeader@2x.png */; };
-		92CF04AE1E2E15110085D631 /* chat_receiver_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD2AACD1A7CDABF00D16528 /* chat_receiver_bg.png */; };
-		92CF04AF1E2E15110085D631 /* icon_022_cover.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B3DAB71BF1D7B700913BD5 /* icon_022_cover.png */; };
-		92CF04B01E2E15110085D631 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D26CE39A1C2BD37700697F48 /* Settings.bundle */; };
-		92CF04B11E2E15110085D631 /* icon_027.gif in Resources */ = {isa = PBXBuildFile; fileRef = D2B3DABC1BF1D7B700913BD5 /* icon_027.gif */; };
-		92CF04B21E2E15110085D631 /* tabbar_contactsHL.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD2AAF71A7CDAC000D16528 /* tabbar_contactsHL.png */; };
-		92CF04B31E2E15110085D631 /* icon_024.gif in Resources */ = {isa = PBXBuildFile; fileRef = D2B3DABA1BF1D7B700913BD5 /* icon_024.gif */; };
-		92CF04B41E2E15110085D631 /* icon_007_cover.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B3DAA71BF1D7B700913BD5 /* icon_007_cover.png */; };
-		92CF04B51E2E15110085D631 /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 929F145F1DF5495C000C0EE8 /* AlipaySDK.bundle */; };
-		92CF04B61E2E15110085D631 /* group_detail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD2AAE51A7CDAC000D16528 /* group_detail@2x.png */; };
-		92CF04B71E2E15110085D631 /* delete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD2AAE41A7CDAC000D16528 /* delete@2x.png */; };
-		92CF04B81E2E15110085D631 /* chat_receiver_audio_playing000@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD2AAC41A7CDABF00D16528 /* chat_receiver_audio_playing000@2x.png */; };
-		92CF04B91E2E15110085D631 /* titleBar.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD2AAE61A7CDAC000D16528 /* titleBar.png */; };
-		92CF04BA1E2E15110085D631 /* icon_010_cover.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B3DAA91BF1D7B700913BD5 /* icon_010_cover.png */; };
-		92CF04BB1E2E15110085D631 /* tabbar_setting@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD2AAFA1A7CDAC000D16528 /* tabbar_setting@2x.png */; };
-		92CF04BC1E2E15110085D631 /* 120.png in Resources */ = {isa = PBXBuildFile; fileRef = D2A9107B1C83E7890025AD0A /* 120.png */; };
-		92CF04BD1E2E15110085D631 /* icon_040.gif in Resources */ = {isa = PBXBuildFile; fileRef = D2B3DAC41BF1D7B700913BD5 /* icon_040.gif */; };
-		92CF04BE1E2E15110085D631 /* call_out@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD2AA721A7CDABF00D16528 /* call_out@2x.png */; };
-		92CF04BF1E2E15110085D631 /* imageDownloadFail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD2AA921A7CDABF00D16528 /* imageDownloadFail@2x.png */; };
-		92CF04C01E2E15110085D631 /* icon_013_cover.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B3DAAD1BF1D7B700913BD5 /* icon_013_cover.png */; };
-		92CF04C11E2E15110085D631 /* chat_sender_audio_playing_001@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD2AAD31A7CDABF00D16528 /* chat_sender_audio_playing_001@2x.png */; };
-		92CF04C21E2E15110085D631 /* icon_035_cover.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B3DAC11BF1D7B700913BD5 /* icon_035_cover.png */; };
-		92CF04C31E2E15110085D631 /* icon_019.gif in Resources */ = {isa = PBXBuildFile; fileRef = D2B3DAB21BF1D7B700913BD5 /* icon_019.gif */; };
-		92CF04C41E2E15110085D631 /* call_out.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD2AA711A7CDABF00D16528 /* call_out.png */; };
-		92CF04C51E2E15110085D631 /* icon_029.gif in Resources */ = {isa = PBXBuildFile; fileRef = D2B3DABE1BF1D7B700913BD5 /* icon_029.gif */; };
-		92CF04C61E2E15110085D631 /* chat_sender_audio_playing_full@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD2AAD91A7CDABF00D16528 /* chat_sender_audio_playing_full@2x.png */; };
-		92CF04C71E2E15110085D631 /* group_invitee_delete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD2AAE91A7CDAC000D16528 /* group_invitee_delete@2x.png */; };
-		92CF04C81E2E15110085D631 /* chat_sender_audio_playing_003@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD2AAD71A7CDABF00D16528 /* chat_sender_audio_playing_003@2x.png */; };
-		92CF04C91E2E15110085D631 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C3D2D1E1A6E5A760099EF88 /* Localizable.strings */; };
-		92CF04CA1E2E15110085D631 /* chat_receiver_audio_playing001@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD2AAC61A7CDABF00D16528 /* chat_receiver_audio_playing001@2x.png */; };
-		92CF04CB1E2E15110085D631 /* chat_sender_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD2AADA1A7CDABF00D16528 /* chat_sender_bg.png */; };
-		92CF04CC1E2E15110085D631 /* icon_020.gif in Resources */ = {isa = PBXBuildFile; fileRef = D2B3DAB41BF1D7B700913BD5 /* icon_020.gif */; };
-		92CF04CD1E2E15110085D631 /* tabbar_chatsHL.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD2AAF31A7CDAC000D16528 /* tabbar_chatsHL.png */; };
-		92CF04CE1E2E15110085D631 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90911039192EEA70008A48AA /* Images.xcassets */; };
-		92CF04CF1E2E15110085D631 /* tabbar_settingHL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD2AAFC1A7CDAC000D16528 /* tabbar_settingHL@2x.png */; };
-		92CF04D01E2E15110085D631 /* groupPublicHeader@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD2AAED1A7CDAC000D16528 /* groupPublicHeader@2x.png */; };
-		92CF04D11E2E15110085D631 /* sr_refresh@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = 90EF2CE6192F2B4E00BDC549 /* sr_refresh@2X.png */; };
-		92CF04D21E2E15110085D631 /* tabbarSelectBg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD2AB001A7CDAC000D16528 /* tabbarSelectBg@2x.png */; };
-		92CF04D31E2E15110085D631 /* titleBar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD2AAE71A7CDAC000D16528 /* titleBar@2x.png */; };
-		92CF04D41E2E15110085D631 /* icon_030_cover.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B3DABF1BF1D7B700913BD5 /* icon_030_cover.png */; };
-		92CF04D51E2E15110085D631 /* chat_sender_audio_playing_002@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD2AAD51A7CDABF00D16528 /* chat_sender_audio_playing_002@2x.png */; };
-		92CF04D61E2E15110085D631 /* newFriends@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD2AAEF1A7CDAC000D16528 /* newFriends@2x.png */; };
-		92CF04D71E2E15110085D631 /* 57.png in Resources */ = {isa = PBXBuildFile; fileRef = D2A9107D1C83E7890025AD0A /* 57.png */; };
-		92CF04D81E2E15110085D631 /* icon_013.gif in Resources */ = {isa = PBXBuildFile; fileRef = D2B3DAAE1BF1D7B700913BD5 /* icon_013.gif */; };
-		92CF04D91E2E15110085D631 /* faceDelete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD2AA911A7CDABF00D16528 /* faceDelete@2x.png */; };
-		92CF04DA1E2E15110085D631 /* icon_002.gif in Resources */ = {isa = PBXBuildFile; fileRef = D2B3DAA61BF1D7B700913BD5 /* icon_002.gif */; };
-		92CF04DB1E2E15110085D631 /* call_out_h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD2AA741A7CDABF00D16528 /* call_out_h@2x.png */; };
-		92CF04DC1E2E15110085D631 /* icon_002_cover.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B3DAA51BF1D7B700913BD5 /* icon_002_cover.png */; };
-		92CF04DD1E2E15110085D631 /* tabbar_contacts.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD2AAF51A7CDAC000D16528 /* tabbar_contacts.png */; };
-		92CF04DE1E2E15110085D631 /* tabbar_chats@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD2AAF21A7CDAC000D16528 /* tabbar_chats@2x.png */; };
-		92CF04DF1E2E15110085D631 /* chatListCellHead.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD2AA3D1A7CDABF00D16528 /* chatListCellHead.png */; };
-		92CF04E01E2E15110085D631 /* chat_video_play.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD2AA7A1A7CDABF00D16528 /* chat_video_play.png */; };
-		92CF04E11E2E15110085D631 /* chat_location_annotation_someone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD2AA881A7CDABF00D16528 /* chat_location_annotation_someone@2x.png */; };
-		92CF04EB1E2E15370085D631 /* libRedpacketADAuthLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 92CF04EA1E2E15370085D631 /* libRedpacketADAuthLib.a */; };
 		92DC0F601E00E27D005EEFED /* MJRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 92DC0EE01E00E27D005EEFED /* MJRefresh.bundle */; };
 		92DC0F611E00E27D005EEFED /* MJRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 92DC0EE01E00E27D005EEFED /* MJRefresh.bundle */; };
 		92DC0F621E00E27D005EEFED /* MWPhotoBrowser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 92DC0F041E00E27D005EEFED /* MWPhotoBrowser.bundle */; };
@@ -924,16 +699,6 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		92CF04E21E2E15110085D631 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D2A42AA51BDA423A0089902B /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -947,7 +712,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		07B9F7655E2457B6148DDD05 /* libPods-H5ADAuth.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-H5ADAuth.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		095DB5F85255FEC7965D1E59 /* Pods-YouliaoYouliao.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YouliaoYouliao.release.xcconfig"; path = "Pods/Target Support Files/Pods-YouliaoYouliao/Pods-YouliaoYouliao.release.xcconfig"; sourceTree = "<group>"; };
 		283403071A9EBB8200B7DE9B /* GroupSubjectChangingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupSubjectChangingViewController.h; sourceTree = "<group>"; };
 		283403081A9EBB8200B7DE9B /* GroupSubjectChangingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupSubjectChangingViewController.m; sourceTree = "<group>"; };
@@ -959,7 +723,6 @@
 		28BFD6351B01D40500D0ADEC /* MyChatroomListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyChatroomListViewController.m; sourceTree = "<group>"; };
 		2BADB1B0FFAAAF398FCCE4DC /* libPods-YouliaoYouliao.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YouliaoYouliao.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C55E12384E2D67F9CE99F2F /* libPods-ChatDemo-UI3.0.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChatDemo-UI3.0.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		322F8D45B9B2C8C726B8E0D3 /* Pods-AliAuthPay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AliAuthPay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AliAuthPay/Pods-AliAuthPay.debug.xcconfig"; sourceTree = "<group>"; };
 		3C06AAFE194050A00076FF0B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		3C06AB0219405D330076FF0B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		3C117120197D243B00E2DBEC /* PushNotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushNotificationViewController.h; sourceTree = "<group>"; };
@@ -1013,7 +776,6 @@
 		3CBF90BE19302F5000AD68AE /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		3CBF90BF19302F5000AD68AE /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		3CE6293219A1B13700829632 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
-		55970015A9C6C3F41B7F411D /* Pods-H5ADAuth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-H5ADAuth.debug.xcconfig"; path = "Pods/Target Support Files/Pods-H5ADAuth/Pods-H5ADAuth.debug.xcconfig"; sourceTree = "<group>"; };
 		7047CC721D097779A8417C69 /* Pods-YouliaoYouliao.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YouliaoYouliao.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YouliaoYouliao/Pods-YouliaoYouliao.debug.xcconfig"; sourceTree = "<group>"; };
 		7D270C62E1047EDF068F7FB8 /* Pods-ChatDemo-UI3.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatDemo-UI3.0.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChatDemo-UI3.0/Pods-ChatDemo-UI3.0.release.xcconfig"; sourceTree = "<group>"; };
 		90011F901AE4BF090088D549 /* EMAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMAlertView.h; sourceTree = "<group>"; };
@@ -1117,7 +879,6 @@
 		929F14801DF5495C000C0EE8 /* YZHRedpacketBridgeProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZHRedpacketBridgeProtocol.h; sourceTree = "<group>"; };
 		929F14941DF54A8C000C0EE8 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		929F14961DF54D2D000C0EE8 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
-		92CF04E81E2E15110085D631 /* H5ADAuth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = H5ADAuth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92CF04E91E2E15110085D631 /* ChatDemo-UI3.0-H5Auth.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ChatDemo-UI3.0-H5Auth.plist"; path = "/Users/MrYang/Developer/EaseMob-3.0/ChatDemo-UI3.0/ChatDemo-UI3.0-H5Auth.plist"; sourceTree = "<absolute>"; };
 		92CF04EA1E2E15370085D631 /* libRedpacketADAuthLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libRedpacketADAuthLib.a; path = "../../../Library/Developer/Xcode/DerivedData/ChatDemo-UI3.0-dzyfnjnkgsrubagialxvaaxotrkm/Build/Products/Debug-iphoneos/libRedpacketADAuthLib.a"; sourceTree = "<group>"; };
 		92DC0EC31E00E255005EEFED /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
@@ -1261,7 +1022,6 @@
 		92DC0F6F1E0279A2005EEFED /* RedpacketTakenMessageTipCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedpacketTakenMessageTipCell.h; sourceTree = "<group>"; };
 		92DC0F701E0279A2005EEFED /* RedpacketTakenMessageTipCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedpacketTakenMessageTipCell.m; sourceTree = "<group>"; };
 		92DC0F731E028372005EEFED /* libRedpacketLibWePay.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libRedpacketLibWePay.a; path = "../../../Library/Developer/Xcode/DerivedData/ChatDemo-UI3.0-dzyfnjnkgsrubagialxvaaxotrkm/Build/Products/Debug-iphoneos/libRedpacketLibWePay.a"; sourceTree = "<group>"; };
-		9A73E498D3B042DE7011DC71 /* Pods-H5ADAuth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-H5ADAuth.release.xcconfig"; path = "Pods/Target Support Files/Pods-H5ADAuth/Pods-H5ADAuth.release.xcconfig"; sourceTree = "<group>"; };
 		C2C328E80DB53E6C65FBA77D /* Pods-ChatDemo-UI3.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatDemo-UI3.0.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChatDemo-UI3.0/Pods-ChatDemo-UI3.0.debug.xcconfig"; sourceTree = "<group>"; };
 		D24A4A9B1BCE4B830007BB00 /* ChatDemo-UI3.0-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ChatDemo-UI3.0-Info.plist"; sourceTree = "<group>"; };
 		D24A4A9C1BCE4B830007BB00 /* ChatDemo-UI3.0-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ChatDemo-UI3.0-Prefix.pch"; sourceTree = "<group>"; };
@@ -1343,7 +1103,6 @@
 		D2F7691E1CBF42DB009778FB /* SearchChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchChatViewController.m; sourceTree = "<group>"; };
 		D2FFDB901C1687A30031425A /* ChatDemoHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatDemoHelper.h; sourceTree = "<group>"; };
 		D2FFDB911C1687A30031425A /* ChatDemoHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatDemoHelper.m; sourceTree = "<group>"; };
-		D6709405B1087074BC5F4A80 /* Pods-AliAuthPay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AliAuthPay.release.xcconfig"; path = "Pods/Target Support Files/Pods-AliAuthPay/Pods-AliAuthPay.release.xcconfig"; sourceTree = "<group>"; };
 		EB1975B11ADE0C77002E7E27 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
 		EBD2AA3D1A7CDABF00D16528 /* chatListCellHead.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chatListCellHead.png; sourceTree = "<group>"; };
 		EBD2AA3E1A7CDABF00D16528 /* chatListCellHead@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chatListCellHead@2x.png"; sourceTree = "<group>"; };
@@ -1418,7 +1177,6 @@
 		EBD2AB001A7CDAC000D16528 /* tabbarSelectBg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbarSelectBg@2x.png"; sourceTree = "<group>"; };
 		EBF9556B1ADD0F0C0087E035 /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "usr/lib/libstdc++.6.0.9.dylib"; sourceTree = SDKROOT; };
 		EBF955E21ADD17700087E035 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		EC596DDEFE03B0064DE4CA53 /* libPods-AliAuthPay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AliAuthPay.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1489,7 +1247,6 @@
 				92640A8D1E0A2D2F00DE4DDF /* Foundation.framework in Frameworks */,
 				92640A8E1E0A2D2F00DE4DDF /* libPods-ChatDemo-UI3.0.a in Frameworks */,
 				92640A8F1E0A2D2F00DE4DDF /* libPods-ChatDemo-UI3.0.a in Frameworks */,
-				871AEE8CE4004DBC81F5CE4D /* libPods-AliAuthPay.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1525,42 +1282,6 @@
 				9273C7181DF7B661001DAE17 /* Parse.framework in Frameworks */,
 				9273C7191DF7B661001DAE17 /* Foundation.framework in Frameworks */,
 				F31F97BF068E7BBF49C22917 /* libPods-YouliaoYouliao.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		92CF04461E2E15110085D631 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				92CF04471E2E15110085D631 /* CoreMotion.framework in Frameworks */,
-				92CF04481E2E15110085D631 /* libMobClickLibrary.a in Frameworks */,
-				92CF04491E2E15110085D631 /* libEaseUI-2.a in Frameworks */,
-				92CF044A1E2E15110085D631 /* Social.framework in Frameworks */,
-				92CF044B1E2E15110085D631 /* Accounts.framework in Frameworks */,
-				92CF044C1E2E15110085D631 /* CoreData.framework in Frameworks */,
-				92CF04EB1E2E15370085D631 /* libRedpacketADAuthLib.a in Frameworks */,
-				92CF044E1E2E15110085D631 /* libc++.dylib in Frameworks */,
-				92CF044F1E2E15110085D631 /* libstdc++.6.0.9.dylib in Frameworks */,
-				92CF04501E2E15110085D631 /* libsqlite3.dylib in Frameworks */,
-				92CF04511E2E15110085D631 /* CoreText.framework in Frameworks */,
-				92CF04521E2E15110085D631 /* ImageIO.framework in Frameworks */,
-				92CF04531E2E15110085D631 /* MapKit.framework in Frameworks */,
-				92CF04541E2E15110085D631 /* CoreLocation.framework in Frameworks */,
-				92CF04551E2E15110085D631 /* libresolv.dylib in Frameworks */,
-				92CF04561E2E15110085D631 /* SystemConfiguration.framework in Frameworks */,
-				92CF04571E2E15110085D631 /* MobileCoreServices.framework in Frameworks */,
-				92CF04581E2E15110085D631 /* Bolts.framework in Frameworks */,
-				92CF04591E2E15110085D631 /* libiconv.dylib in Frameworks */,
-				92CF045A1E2E15110085D631 /* AddressBook.framework in Frameworks */,
-				92CF045B1E2E15110085D631 /* CFNetwork.framework in Frameworks */,
-				92CF045C1E2E15110085D631 /* AlipaySDK.framework in Frameworks */,
-				92CF045D1E2E15110085D631 /* libz.dylib in Frameworks */,
-				92CF045E1E2E15110085D631 /* UIKit.framework in Frameworks */,
-				92CF045F1E2E15110085D631 /* Parse.framework in Frameworks */,
-				92CF04601E2E15110085D631 /* Foundation.framework in Frameworks */,
-				92CF04611E2E15110085D631 /* libPods-ChatDemo-UI3.0.a in Frameworks */,
-				92CF04621E2E15110085D631 /* libPods-ChatDemo-UI3.0.a in Frameworks */,
-				83B1CD57CC042EFE03D92BB0 /* libPods-H5ADAuth.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1765,7 +1486,6 @@
 				90911024192EEA70008A48AA /* ChatDemo-UI3.0.app */,
 				9273C7A11DF7B661001DAE17 /* YouliaoYouliao.app */,
 				92640B151E0A2D2F00DE4DDF /* AliAuthPay.app */,
-				92CF04E81E2E15110085D631 /* H5ADAuth.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1808,8 +1528,6 @@
 				9091102B192EEA70008A48AA /* UIKit.framework */,
 				2C55E12384E2D67F9CE99F2F /* libPods-ChatDemo-UI3.0.a */,
 				2BADB1B0FFAAAF398FCCE4DC /* libPods-YouliaoYouliao.a */,
-				EC596DDEFE03B0064DE4CA53 /* libPods-AliAuthPay.a */,
-				07B9F7655E2457B6148DDD05 /* libPods-H5ADAuth.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -2430,10 +2148,6 @@
 				7D270C62E1047EDF068F7FB8 /* Pods-ChatDemo-UI3.0.release.xcconfig */,
 				7047CC721D097779A8417C69 /* Pods-YouliaoYouliao.debug.xcconfig */,
 				095DB5F85255FEC7965D1E59 /* Pods-YouliaoYouliao.release.xcconfig */,
-				322F8D45B9B2C8C726B8E0D3 /* Pods-AliAuthPay.debug.xcconfig */,
-				D6709405B1087074BC5F4A80 /* Pods-AliAuthPay.release.xcconfig */,
-				55970015A9C6C3F41B7F411D /* Pods-H5ADAuth.debug.xcconfig */,
-				9A73E498D3B042DE7011DC71 /* Pods-H5ADAuth.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -2667,27 +2381,6 @@
 			productReference = 9273C7A11DF7B661001DAE17 /* YouliaoYouliao.app */;
 			productType = "com.apple.product-type.application";
 		};
-		92CF03FE1E2E15110085D631 /* H5ADAuth */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 92CF04E51E2E15110085D631 /* Build configuration list for PBXNativeTarget "H5ADAuth" */;
-			buildPhases = (
-				92CF03FF1E2E15110085D631 /* [CP] Check Pods Manifest.lock */,
-				92CF04001E2E15110085D631 /* Sources */,
-				92CF04461E2E15110085D631 /* Frameworks */,
-				92CF04631E2E15110085D631 /* Resources */,
-				92CF04E21E2E15110085D631 /* Embed Frameworks */,
-				92CF04E31E2E15110085D631 /* [CP] Embed Pods Frameworks */,
-				92CF04E41E2E15110085D631 /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = H5ADAuth;
-			productName = "ChatDemo-UI3.0";
-			productReference = 92CF04E81E2E15110085D631 /* H5ADAuth.app */;
-			productType = "com.apple.product-type.application";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -2712,9 +2405,6 @@
 					9273C6B71DF7B661001DAE17 = {
 						DevelopmentTeam = PUEB48NTQQ;
 					};
-					92CF03FE1E2E15110085D631 = {
-						DevelopmentTeam = PUEB48NTQQ;
-					};
 				};
 			};
 			buildConfigurationList = 9091101F192EEA70008A48AA /* Build configuration list for PBXProject "ChatDemo-UI3.0" */;
@@ -2734,7 +2424,6 @@
 				90911023192EEA70008A48AA /* ChatDemo-UI3.0 */,
 				9273C6B71DF7B661001DAE17 /* YouliaoYouliao */,
 				92640A2B1E0A2D2F00DE4DDF /* AliAuthPay */,
-				92CF03FE1E2E15110085D631 /* H5ADAuth */,
 			);
 		};
 /* End PBXProject section */
@@ -3139,139 +2828,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		92CF04631E2E15110085D631 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				92CF04641E2E15110085D631 /* group_participant_addHL@2x.png in Resources */,
-				92CF04651E2E15110085D631 /* icon_024_cover.png in Resources */,
-				92CF04661E2E15110085D631 /* chat_receiver_audio_playing003@2x.png in Resources */,
-				92CF04671E2E15110085D631 /* icon_040_cover.png in Resources */,
-				92CF04681E2E15110085D631 /* chat_location_preview@2x.png in Resources */,
-				92CF04691E2E15110085D631 /* icon_018.gif in Resources */,
-				92CF046A1E2E15110085D631 /* icon_030.gif in Resources */,
-				92CF046B1E2E15110085D631 /* tabbarBackground.png in Resources */,
-				92CF046C1E2E15110085D631 /* call_out_h.png in Resources */,
-				92CF046D1E2E15110085D631 /* chatListCellHead@2x.png in Resources */,
-				92CF046E1E2E15110085D631 /* 58.png in Resources */,
-				92CF046F1E2E15110085D631 /* tabbar_setting.png in Resources */,
-				92CF04701E2E15110085D631 /* chat_location_detail_disclosure@2x.png in Resources */,
-				92CF04711E2E15110085D631 /* tabbar_chatsHL@2x.png in Resources */,
-				92CF04721E2E15110085D631 /* call_silence_h@2x.png in Resources */,
-				92CF04731E2E15110085D631 /* chat_location_preview.png in Resources */,
-				92CF04741E2E15110085D631 /* group_participant_add@2x.png in Resources */,
-				92CF04751E2E15110085D631 /* RedPacketResource.bundle in Resources */,
-				92CF04761E2E15110085D631 /* chat_receiver_audio_playing002@2x.png in Resources */,
-				92CF04771E2E15110085D631 /* call_silence.png in Resources */,
-				92CF04781E2E15110085D631 /* icon_020_cover.png in Resources */,
-				92CF04791E2E15110085D631 /* call_silence@2x.png in Resources */,
-				92CF047A1E2E15110085D631 /* tabbar_chats.png in Resources */,
-				92CF047B1E2E15110085D631 /* chat_location_annotation_someone.png in Resources */,
-				92CF047C1E2E15110085D631 /* icon_027_cover.png in Resources */,
-				92CF047D1E2E15110085D631 /* faceDelete.png in Resources */,
-				92CF047E1E2E15110085D631 /* icon_021_cover.png in Resources */,
-				92CF047F1E2E15110085D631 /* icon_012_cover.png in Resources */,
-				92CF04801E2E15110085D631 /* EaseUIResource.bundle in Resources */,
-				92CF04811E2E15110085D631 /* icon_029_cover.png in Resources */,
-				92CF04821E2E15110085D631 /* MJRefresh.bundle in Resources */,
-				92CF04831E2E15110085D631 /* sr_refresh.png in Resources */,
-				92CF04841E2E15110085D631 /* messageSendFail@2x.png in Resources */,
-				92CF04851E2E15110085D631 /* tabbar_contacts@2x.png in Resources */,
-				92CF04861E2E15110085D631 /* password.png in Resources */,
-				92CF04871E2E15110085D631 /* icon_010.gif in Resources */,
-				92CF04881E2E15110085D631 /* icon_018_cover.png in Resources */,
-				92CF04891E2E15110085D631 /* chat_location_detail_disclosureHL.png in Resources */,
-				92CF048A1E2E15110085D631 /* tabbar_settingHL.png in Resources */,
-				92CF048B1E2E15110085D631 /* MWPhotoBrowser.bundle in Resources */,
-				92CF048C1E2E15110085D631 /* account.png in Resources */,
-				92CF048D1E2E15110085D631 /* icon_012.gif in Resources */,
-				92CF048E1E2E15110085D631 /* group_header@2x.png in Resources */,
-				92CF048F1E2E15110085D631 /* chat_receiver_audio_playing_full@2x.png in Resources */,
-				92CF04901E2E15110085D631 /* icon_035.gif in Resources */,
-				92CF04911E2E15110085D631 /* tabbarBackground@2x.png in Resources */,
-				92CF04921E2E15110085D631 /* LoginViewController.xib in Resources */,
-				92CF04931E2E15110085D631 /* password@2x.png in Resources */,
-				92CF04941E2E15110085D631 /* callBg@2x.png in Resources */,
-				92CF04951E2E15110085D631 /* group_joinpublicgroup@2x.png in Resources */,
-				92CF04961E2E15110085D631 /* nav_createGroup@2x.png in Resources */,
-				92CF04971E2E15110085D631 /* icon_021.gif in Resources */,
-				92CF04981E2E15110085D631 /* icon_022.gif in Resources */,
-				92CF04991E2E15110085D631 /* chat_sender_audio_playing_000@2x.png in Resources */,
-				92CF049A1E2E15110085D631 /* account@2x.png in Resources */,
-				92CF049B1E2E15110085D631 /* RedpacketCellResource.bundle in Resources */,
-				92CF049C1E2E15110085D631 /* call_silence_h.png in Resources */,
-				92CF049D1E2E15110085D631 /* InfoPlist.strings in Resources */,
-				92CF049E1E2E15110085D631 /* 114.png in Resources */,
-				92CF049F1E2E15110085D631 /* chat_location_detail_disclosure.png in Resources */,
-				92CF04A01E2E15110085D631 /* icon_007.gif in Resources */,
-				92CF04A11E2E15110085D631 /* chat_sender_bg@2x.png in Resources */,
-				92CF04A21E2E15110085D631 /* chat_location_detail_disclosureHL@2x.png in Resources */,
-				92CF04A31E2E15110085D631 /* group_creategroup@2x.png in Resources */,
-				92CF04A41E2E15110085D631 /* 29.png in Resources */,
-				92CF04A51E2E15110085D631 /* tabbarSelectBg.png in Resources */,
-				92CF04A61E2E15110085D631 /* back@2x.png in Resources */,
-				92CF04A71E2E15110085D631 /* icon_019_cover.png in Resources */,
-				92CF04A81E2E15110085D631 /* add@2x.png in Resources */,
-				92CF04A91E2E15110085D631 /* 80.png in Resources */,
-				92CF04AA1E2E15110085D631 /* tabbar_contactsHL@2x.png in Resources */,
-				92CF04AB1E2E15110085D631 /* (null) in Resources */,
-				92CF04AC1E2E15110085D631 /* chat_receiver_bg@2x.png in Resources */,
-				92CF04AD1E2E15110085D631 /* groupPrivateHeader@2x.png in Resources */,
-				92CF04AE1E2E15110085D631 /* chat_receiver_bg.png in Resources */,
-				92CF04AF1E2E15110085D631 /* icon_022_cover.png in Resources */,
-				92CF04B01E2E15110085D631 /* Settings.bundle in Resources */,
-				92CF04B11E2E15110085D631 /* icon_027.gif in Resources */,
-				92CF04B21E2E15110085D631 /* tabbar_contactsHL.png in Resources */,
-				92CF04B31E2E15110085D631 /* icon_024.gif in Resources */,
-				92CF04B41E2E15110085D631 /* icon_007_cover.png in Resources */,
-				92CF04B51E2E15110085D631 /* AlipaySDK.bundle in Resources */,
-				92CF04B61E2E15110085D631 /* group_detail@2x.png in Resources */,
-				92CF04B71E2E15110085D631 /* delete@2x.png in Resources */,
-				92CF04B81E2E15110085D631 /* chat_receiver_audio_playing000@2x.png in Resources */,
-				92CF04B91E2E15110085D631 /* titleBar.png in Resources */,
-				92CF04BA1E2E15110085D631 /* icon_010_cover.png in Resources */,
-				92CF04BB1E2E15110085D631 /* tabbar_setting@2x.png in Resources */,
-				92CF04BC1E2E15110085D631 /* 120.png in Resources */,
-				92CF04BD1E2E15110085D631 /* icon_040.gif in Resources */,
-				92CF04BE1E2E15110085D631 /* call_out@2x.png in Resources */,
-				92CF04BF1E2E15110085D631 /* imageDownloadFail@2x.png in Resources */,
-				92CF04C01E2E15110085D631 /* icon_013_cover.png in Resources */,
-				92CF04C11E2E15110085D631 /* chat_sender_audio_playing_001@2x.png in Resources */,
-				92CF04C21E2E15110085D631 /* icon_035_cover.png in Resources */,
-				92CF04C31E2E15110085D631 /* icon_019.gif in Resources */,
-				92CF04C41E2E15110085D631 /* call_out.png in Resources */,
-				92CF04C51E2E15110085D631 /* icon_029.gif in Resources */,
-				92CF04C61E2E15110085D631 /* chat_sender_audio_playing_full@2x.png in Resources */,
-				92CF04C71E2E15110085D631 /* group_invitee_delete@2x.png in Resources */,
-				92CF04C81E2E15110085D631 /* chat_sender_audio_playing_003@2x.png in Resources */,
-				92CF04C91E2E15110085D631 /* Localizable.strings in Resources */,
-				92CF04CA1E2E15110085D631 /* chat_receiver_audio_playing001@2x.png in Resources */,
-				92CF04CB1E2E15110085D631 /* chat_sender_bg.png in Resources */,
-				92CF04CC1E2E15110085D631 /* icon_020.gif in Resources */,
-				92CF04CD1E2E15110085D631 /* tabbar_chatsHL.png in Resources */,
-				92CF04CE1E2E15110085D631 /* Images.xcassets in Resources */,
-				92CF04CF1E2E15110085D631 /* tabbar_settingHL@2x.png in Resources */,
-				92CF04D01E2E15110085D631 /* groupPublicHeader@2x.png in Resources */,
-				92CF04D11E2E15110085D631 /* sr_refresh@2X.png in Resources */,
-				92CF04D21E2E15110085D631 /* tabbarSelectBg@2x.png in Resources */,
-				92CF04D31E2E15110085D631 /* titleBar@2x.png in Resources */,
-				92CF04D41E2E15110085D631 /* icon_030_cover.png in Resources */,
-				92CF04D51E2E15110085D631 /* chat_sender_audio_playing_002@2x.png in Resources */,
-				92CF04D61E2E15110085D631 /* newFriends@2x.png in Resources */,
-				92CF04D71E2E15110085D631 /* 57.png in Resources */,
-				92CF04D81E2E15110085D631 /* icon_013.gif in Resources */,
-				92CF04D91E2E15110085D631 /* faceDelete@2x.png in Resources */,
-				92CF04DA1E2E15110085D631 /* icon_002.gif in Resources */,
-				92CF04DB1E2E15110085D631 /* call_out_h@2x.png in Resources */,
-				92CF04DC1E2E15110085D631 /* icon_002_cover.png in Resources */,
-				92CF04DD1E2E15110085D631 /* tabbar_contacts.png in Resources */,
-				92CF04DE1E2E15110085D631 /* tabbar_chats@2x.png in Resources */,
-				92CF04DF1E2E15110085D631 /* chatListCellHead.png in Resources */,
-				92CF04E01E2E15110085D631 /* chat_video_play.png in Resources */,
-				92CF04E11E2E15110085D631 /* chat_location_annotation_someone@2x.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
@@ -3362,7 +2918,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AliAuthPay/Pods-AliAuthPay-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChatDemo-UI3.0/Pods-ChatDemo-UI3.0-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		92640B111E0A2D2F00DE4DDF /* [CP] Copy Pods Resources */ = {
@@ -3377,52 +2933,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AliAuthPay/Pods-AliAuthPay-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		92CF03FF1E2E15110085D631 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		92CF04E31E2E15110085D631 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-H5ADAuth/Pods-H5ADAuth-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		92CF04E41E2E15110085D631 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-H5ADAuth/Pods-H5ADAuth-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChatDemo-UI3.0/Pods-ChatDemo-UI3.0-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E2DE464A713DD7D0F74A4BD8 /* [CP] Check Pods Manifest.lock */ = {
@@ -3686,82 +3197,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		92CF04001E2E15110085D631 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				92CF04011E2E15110085D631 /* AppDelegate.m in Sources */,
-				92CF04021E2E15110085D631 /* RobotListViewController.m in Sources */,
-				92CF04031E2E15110085D631 /* SRSlimeView.m in Sources */,
-				92CF04041E2E15110085D631 /* AddFriendCell.m in Sources */,
-				92CF04051E2E15110085D631 /* SRRefreshView.m in Sources */,
-				92CF04061E2E15110085D631 /* GroupListViewController.m in Sources */,
-				92CF04071E2E15110085D631 /* TTGlobalUICommon.m in Sources */,
-				92CF04081E2E15110085D631 /* RedpacketTakenMessageTipCell.m in Sources */,
-				92CF04091E2E15110085D631 /* EMAlertView.m in Sources */,
-				92CF040A1E2E15110085D631 /* RobotChatViewController.m in Sources */,
-				92CF040B1E2E15110085D631 /* ConversationListController.m in Sources */,
-				92CF040C1E2E15110085D631 /* SearchChatViewController.m in Sources */,
-				92CF040D1E2E15110085D631 /* RedPacketLuckView.m in Sources */,
-				92CF040E1E2E15110085D631 /* EMRemarkImageView.m in Sources */,
-				92CF040F1E2E15110085D631 /* UserProfileManager.m in Sources */,
-				92CF04101E2E15110085D631 /* RedpacketView.m in Sources */,
-				92CF04111E2E15110085D631 /* UserProfileEditViewController.m in Sources */,
-				92CF04121E2E15110085D631 /* EMChooseViewController.m in Sources */,
-				92CF04131E2E15110085D631 /* ChatGroupDetailViewController.m in Sources */,
-				92CF04141E2E15110085D631 /* ContactListSelectViewController.m in Sources */,
-				92CF04151E2E15110085D631 /* BaseTableViewCell.m in Sources */,
-				92CF04161E2E15110085D631 /* CallViewController.m in Sources */,
-				92CF04171E2E15110085D631 /* ChatViewController.m in Sources */,
-				92CF04181E2E15110085D631 /* EMRobotChatTextBubbleView.m in Sources */,
-				92CF04191E2E15110085D631 /* BaseViewController.m in Sources */,
-				92CF041A1E2E15110085D631 /* PublicGroupListViewController.m in Sources */,
-				92CF041B1E2E15110085D631 /* EMSearchDisplayController.m in Sources */,
-				92CF041C1E2E15110085D631 /* EMRotbotChatViewCell.m in Sources */,
-				92CF041D1E2E15110085D631 /* AddFriendViewController.m in Sources */,
-				92CF041E1E2E15110085D631 /* SearchMessageViewController.m in Sources */,
-				92CF041F1E2E15110085D631 /* ContactSelectionViewController.m in Sources */,
-				92CF04201E2E15110085D631 /* GroupSubjectChangingViewController.m in Sources */,
-				92CF04211E2E15110085D631 /* UIImageView+HeadImage.m in Sources */,
-				92CF04221E2E15110085D631 /* ApplyFriendCell.m in Sources */,
-				92CF04231E2E15110085D631 /* XHMessageTextView.m in Sources */,
-				92CF04241E2E15110085D631 /* ApplyViewController.m in Sources */,
-				92CF04251E2E15110085D631 /* main.m in Sources */,
-				92CF04261E2E15110085D631 /* ChatroomDetailViewController.m in Sources */,
-				92CF04271E2E15110085D631 /* PushNotificationViewController.m in Sources */,
-				92CF04281E2E15110085D631 /* UserProfileViewController.m in Sources */,
-				92CF04291E2E15110085D631 /* InvitationManager.m in Sources */,
-				92CF042A1E2E15110085D631 /* ContactListViewController.m in Sources */,
-				92CF042B1E2E15110085D631 /* AppDelegate+Redpacket.m in Sources */,
-				92CF042C1E2E15110085D631 /* AppDelegate+UMeng.m in Sources */,
-				92CF042D1E2E15110085D631 /* BlackListViewController.m in Sources */,
-				92CF042E1E2E15110085D631 /* SettingsViewController.m in Sources */,
-				92CF042F1E2E15110085D631 /* AppDelegate+Parse.m in Sources */,
-				92CF04301E2E15110085D631 /* PublicGroupDetailViewController.m in Sources */,
-				92CF04311E2E15110085D631 /* LoginViewController.m in Sources */,
-				92CF04321E2E15110085D631 /* DebugViewController.m in Sources */,
-				92CF04331E2E15110085D631 /* RobotManager.m in Sources */,
-				92CF04341E2E15110085D631 /* GroupSettingViewController.m in Sources */,
-				92CF04351E2E15110085D631 /* EMSearchBar.m in Sources */,
-				92CF04361E2E15110085D631 /* CreateGroupViewController.m in Sources */,
-				92CF04371E2E15110085D631 /* RealtimeSearchUtil.m in Sources */,
-				92CF04381E2E15110085D631 /* GroupBansViewController.m in Sources */,
-				92CF04391E2E15110085D631 /* AppDelegate+EaseMobDebug.m in Sources */,
-				92CF043A1E2E15110085D631 /* RedPacketUserConfig.m in Sources */,
-				92CF043B1E2E15110085D631 /* ChatroomListViewController.m in Sources */,
-				92CF043C1E2E15110085D631 /* AppDelegate+EaseMob.m in Sources */,
-				92CF043D1E2E15110085D631 /* ContactView.m in Sources */,
-				92CF043E1E2E15110085D631 /* ChatDemoHelper.m in Sources */,
-				92CF043F1E2E15110085D631 /* RedPacketChatViewController.m in Sources */,
-				92CF04401E2E15110085D631 /* EditNicknameViewController.m in Sources */,
-				92CF04411E2E15110085D631 /* MainViewController.m in Sources */,
-				92CF04421E2E15110085D631 /* EaseRedBagCell.m in Sources */,
-				92CF04431E2E15110085D631 /* EMTextView.m in Sources */,
-				92CF04441E2E15110085D631 /* UIResponder+Router.m in Sources */,
-				92CF04451E2E15110085D631 /* MyChatroomListViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -3993,7 +3428,7 @@
 		};
 		92640B131E0A2D2F00DE4DDF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 322F8D45B9B2C8C726B8E0D3 /* Pods-AliAuthPay.debug.xcconfig */;
+			baseConfigurationReference = C2C328E80DB53E6C65FBA77D /* Pods-ChatDemo-UI3.0.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -4059,7 +3494,7 @@
 		};
 		92640B141E0A2D2F00DE4DDF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D6709405B1087074BC5F4A80 /* Pods-AliAuthPay.release.xcconfig */;
+			baseConfigurationReference = 7D270C62E1047EDF068F7FB8 /* Pods-ChatDemo-UI3.0.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -4155,6 +3590,7 @@
 					"COCOAPODS=1",
 					YouLiaoAvaliable,
 				);
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = WeChatAvaliable;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/../RedpacketSDK/",
@@ -4225,6 +3661,7 @@
 					"COCOAPODS=1",
 					YouLiaoAvaliable,
 				);
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = WeChatAvaliable;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/../RedpacketSDK/",
@@ -4254,138 +3691,6 @@
 					"-ObjC",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.redpacket.youliao;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				SKIP_INSTALL = NO;
-				TARGETED_DEVICE_FAMILY = 1;
-				VALID_ARCHS = "armv7 armv7s arm64";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		92CF04E61E2E15110085D631 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 55970015A9C6C3F41B7F411D /* Pods-H5ADAuth.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = PUEB48NTQQ;
-				EASEMOB_INC = "";
-				EASEMOB_LIB = "";
-				EASEMOB_LIBNAME = "";
-				EASEMOB_ROOT = "";
-				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-					"$(PROJECT_DIR)/ChatDemo-UI3.0/3rdparty",
-					"$(PROJECT_DIR)/ChatDemo-UI3.0/3rdparty/Parse",
-					"$(PROJECT_DIR)/RedpacketSDK/AliPay",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ChatDemo-UI3.0/ChatDemo-UI3.0-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"$(inherited)",
-					"COCOAPODS=1",
-					AliAuthPay,
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/../RedpacketSDK/",
-				);
-				INFOPLIST_EXPAND_BUILD_SETTINGS = YES;
-				INFOPLIST_FILE = "ChatDemo-UI3.0-H5Auth.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/ChatDemo-UI3.0/3rdparty",
-					"$(PROJECT_DIR)/ChatDemo-UI3.0/3rdparty/UMeng",
-					"$(PROJECT_DIR)/RedpacketSDK/RedpacketStaticLib/lib",
-					"$(PROJECT_DIR)/Tmp/Ease3.0/HyphenateFullSDK/lib/3rd_party",
-					"$(PROJECT_DIR)/Tmp/Ease3.0/HyphenateFullSDK/lib",
-					"$(PROJECT_DIR)/Tmp/Ease3.0/EaseUI/export/lib",
-					"$(PROJECT_DIR)/RedpacketSDK/AliPay/AlipayLib",
-					"$(PROJECT_DIR)/RedpacketSDK/WeChat",
-					"$(PROJECT_DIR)/RedpacketSDK",
-					"$(PROJECT_DIR)",
-					"$(PROJECT_DIR)/export/lib",
-				);
-				ONLY_ACTIVE_ARCH = YES;
-				OTHER_LDFLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = com.redpacket.h5AdAuth;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				SKIP_INSTALL = NO;
-				TARGETED_DEVICE_FAMILY = 1;
-				VALID_ARCHS = "armv7 armv7s arm64";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		92CF04E71E2E15110085D631 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9A73E498D3B042DE7011DC71 /* Pods-H5ADAuth.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = PUEB48NTQQ;
-				EASEMOB_INC = "";
-				EASEMOB_LIB = "";
-				EASEMOB_LIBNAME = "";
-				EASEMOB_ROOT = "";
-				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-					"$(PROJECT_DIR)/ChatDemo-UI3.0/3rdparty",
-					"$(PROJECT_DIR)/ChatDemo-UI3.0/3rdparty/Parse",
-					"$(PROJECT_DIR)/RedpacketSDK/AliPay",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ChatDemo-UI3.0/ChatDemo-UI3.0-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"$(inherited)",
-					"COCOAPODS=1",
-					AliAuthPay,
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/../RedpacketSDK/",
-				);
-				INFOPLIST_EXPAND_BUILD_SETTINGS = YES;
-				INFOPLIST_FILE = "ChatDemo-UI3.0-H5Auth.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/ChatDemo-UI3.0/3rdparty",
-					"$(PROJECT_DIR)/ChatDemo-UI3.0/3rdparty/UMeng",
-					"$(PROJECT_DIR)/RedpacketSDK/RedpacketStaticLib/lib",
-					"$(PROJECT_DIR)/Tmp/Ease3.0/HyphenateFullSDK/lib/3rd_party",
-					"$(PROJECT_DIR)/Tmp/Ease3.0/HyphenateFullSDK/lib",
-					"$(PROJECT_DIR)/Tmp/Ease3.0/EaseUI/export/lib",
-					"$(PROJECT_DIR)/RedpacketSDK/AliPay/AlipayLib",
-					"$(PROJECT_DIR)/RedpacketSDK/WeChat",
-					"$(PROJECT_DIR)/RedpacketSDK",
-					"$(PROJECT_DIR)",
-					"$(PROJECT_DIR)/export/lib",
-				);
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = com.redpacket.h5AdAuth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = NO;
@@ -4430,15 +3735,6 @@
 			buildConfigurations = (
 				9273C79F1DF7B661001DAE17 /* Debug */,
 				9273C7A01DF7B661001DAE17 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		92CF04E51E2E15110085D631 /* Build configuration list for PBXNativeTarget "H5ADAuth" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				92CF04E61E2E15110085D631 /* Debug */,
-				92CF04E71E2E15110085D631 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

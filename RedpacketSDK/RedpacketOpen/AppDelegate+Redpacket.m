@@ -11,6 +11,10 @@
 #import <AlipaySDK/AlipaySDK.h>
 #import "RedpacketOpenConst.h"
 
+#ifdef WeChatAvaliable
+#import "WXApi.h"
+#endif
+
 
 BOOL rp_classMethodSwizzle(Class aClass, SEL originalSelector, SEL swizzleSelector, SEL nopSelector) {
     
@@ -36,8 +40,15 @@ BOOL rp_classMethodSwizzle(Class aClass, SEL originalSelector, SEL swizzleSelect
     return YES;
 }
 
+#ifdef WeChatAvaliable
+@interface AppDelegate (RedpacketDelegateSetter) <WXApiDelegate>
+
+@end
+#endif
+
 
 @implementation AppDelegate (Redpacket)
+
 
 + (void)load
 {
@@ -124,7 +135,8 @@ BOOL rp_classMethodSwizzle(Class aClass, SEL originalSelector, SEL swizzleSelect
 #ifdef WeChatAvaliable
     else if ([url.host isEqualToString:@"pay"]) {
         //  微信支付
-        [WXApi handleOpenURL:url delegate:self];
+        BOOL isOk = [WXApi handleOpenURL:url delegate:self];
+        NSLog(@"isWechatOk:%d", isOk);
     }
 #endif
     
@@ -133,7 +145,7 @@ BOOL rp_classMethodSwizzle(Class aClass, SEL originalSelector, SEL swizzleSelect
 
 #ifdef WeChatAvaliable
 //  微信支付回调
--(void)rp_onResp:(BaseResp*)resp{
+-(void)onResp:(BaseResp*)resp{
     
     if ([resp isKindOfClass:[PayResp class]]){
         PayResp*response=(PayResp*)resp;

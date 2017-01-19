@@ -61,16 +61,6 @@
 				<string>com.easemob.enterprise.demo.ui1</string>
 			</array>
 		</dict>
-		<dict>
-			<key>CFBundleTypeRole</key>
-			<string>Editor</string>
-			<key>CFBundleURLName</key>
-			<string>AliAuth</string>
-			<key>CFBundleURLSchemes</key>
-			<array>
-				<string>com.redpacket.aliAuth</string>
-			</array>
-		</dict>
 	</array>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>

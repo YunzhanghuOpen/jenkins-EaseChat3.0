@@ -59,6 +59,16 @@
 				<string>alidemo</string>
 			</array>
 		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>youliaoalipay</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.redpacket.youliao</string>
+			</array>
+		</dict>
 	</array>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
